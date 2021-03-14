@@ -20,9 +20,9 @@
 
 #include <gtest/gtest.h>
 
-class environment : public  testing::Environment
+class environment : public testing::Environment
 {
-public:
+  public:
 	void SetUp();
 
 	void TearDown();

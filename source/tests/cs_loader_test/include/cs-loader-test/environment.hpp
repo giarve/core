@@ -22,7 +22,7 @@
 
 class environment : public testing::Environment
 {
-public:
+  public:
 	void SetUp();
 
 	void TearDown();
